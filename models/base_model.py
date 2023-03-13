@@ -31,6 +31,7 @@ class BaseModel:
         """upadates the atrributes"""
         self.updated_at = datetime.now()
         models.storage.save()
+        pass
 
     def to_dict(self):
         """rteurns a dictionary"""
