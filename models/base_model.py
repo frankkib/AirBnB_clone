@@ -24,7 +24,8 @@ class BaseModel:
 
     def __str__(self):
         """return a string"""
-        return "[{}]({}){}".format(self.__class__.__name__, self.id, self.__dict__)
+        return "[{}]({}){}".format(
+                self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """upadates the atrributes"""
