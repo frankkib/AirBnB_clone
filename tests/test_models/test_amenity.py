@@ -13,7 +13,8 @@ class TestAmenity(unittest.TestCase):
 
     def test_inheritance(self):
         """tests for inhertance"""
-        self.assertTrue(issubclass(Place, BaseMode))
+        amenity =  Amenity()
+        self.assertTrue(issubclass(amenity, BaseMode))
 
 
 if __name__ == "__name__":

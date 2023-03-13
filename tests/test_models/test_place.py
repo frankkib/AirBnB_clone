@@ -23,6 +23,7 @@ class TestPlace(unittest.TestCase):
         
         def test_inheritance(self):
             """tests for inhertance"""
+            place = Place()
             self.assertTrue(issubclass(Place, BaseMode))
 
 

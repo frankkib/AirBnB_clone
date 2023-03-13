@@ -17,7 +17,8 @@ class TestUser(unittest.TestCase):
 
     def test_inheritance(self):
         """tests for inhertance"""
-        self.assertTrue(issubclass(Place, BaseMode))
+        user = User()
+        self.assertTrue(issubclass(user, BaseMode))
 
 
 if __name__ == "__main__":

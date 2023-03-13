@@ -14,7 +14,8 @@ class TestCity(unittest.TestCase):
 
     def test_inheritance(self):
         """tests for inhertance"""
-        self.assertTrue(issubclass(Place, BaseMode))
+        city = City()
+        self.assertTrue(issubclass(city, BaseMode))
 
 
 if __name__ == "__main__":

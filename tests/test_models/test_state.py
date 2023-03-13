@@ -13,7 +13,8 @@ class TestState(unittest.TestCase):
 
     def test_inheritance(self):
         """tests for inhertance"""
-        self.assertTrue(issubclass(Place, BaseMode))
+        state = State()
+        self.assertTrue(issubclass(state, BaseMode))
 
 
 if __name__ == "__main__":

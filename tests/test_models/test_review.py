@@ -15,7 +15,8 @@ class TestReview(unittest.TestCase):
 
     def test_inheritance(self):
         """tests for inhertance"""
-        self.assertTrue(issubclass(Place, BaseMode))
+        review = Review()
+        self.assertTrue(issubclass(review, BaseMode))
 
 
 if __name__ == "__main__":
