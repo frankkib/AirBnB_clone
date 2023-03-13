@@ -2,6 +2,7 @@
 """class place module"""
 from models.base_model import BaseModel
 
+
 class Place(BaseModel):
     """Place class"""
 
@@ -20,4 +21,3 @@ class Place(BaseModel):
     def __init__(self, *args, **kwargs):
         """Initialize Place class"""
         super().__init__(*args, **kwargs)
-
